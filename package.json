@@ -1,0 +1,22 @@
+{
+  "name": "image-shrink",
+  "version": "1.0.0",
+  "description": "App to optimize images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelevra-pro/image-shrink.git"
+  },
+  "author": "Damir Mukhamedinov <kelevra8pro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kelevra-pro/image-shrink/issues"
+  },
+  "homepage": "https://github.com/Kelevra-pro/image-shrink#readme",
+  "devDependencies": {
+    "electron": "^9.0.0"
+  }
+}
