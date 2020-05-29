@@ -34,15 +34,18 @@ app.on('ready', () => {
 const menu = [
   ...(isMac ? [{ role: 'appMenu' }] : []),
   {
-    label: 'File',
-    submenu: [
-      {
-        label: 'Quit',
-        accelerator: 'CmdOrCtrl+Q',
-        click: () => app.quit()
-      }
-    ]
-  }
+    role: 'fileMenu'
+  },
+  ...(isDev ? [
+    {
+      label: 'Developer',
+      submenu: [
+        { role: 'reload' },
+        { role: 'forcereload' },
+        { type: 'separator' },
+        { role: 'toggledevtools' }
+      ]
+    }] : [])
 ];
 
 app.on('window-all-closed', () => {
