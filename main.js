@@ -113,6 +113,8 @@ async function shrinkImage ({ imgPath, quality, dest }) {
 
     shell.openPath(dest);
 
+    mainWindow.webContents.send('image:done');
+
   } catch (err) {
     console.error('shrinkImage error: ', err);
   }

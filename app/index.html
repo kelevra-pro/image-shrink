@@ -69,6 +69,12 @@
     });
   });
 
+  ipcRenderer.on('image:done', () => {
+    M.toast({
+      html: `Image resize to ${slider.value}% quality`
+    });
+  });
+
 </script>
 </body>
 </html>
