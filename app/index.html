@@ -55,10 +55,7 @@
   const slider = document.getElementById('slider');
   const img = document.getElementById('img');
 
-  document.getElementById('output-path').innerText = path.join(
-    os.homedir(),
-    'imageshrink'
-  );
+  document.getElementById('output-path').innerText = path.join(os.homedir(), 'imageshrink');
 
   form.addEventListener('submit', e => {
     e.preventDefault();
