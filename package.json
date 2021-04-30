@@ -22,15 +22,15 @@
   },
   "homepage": "https://github.com/Kelevra-pro/image-shrink#readme",
   "dependencies": {
-    "electron-log": "^4.2.2",
-    "imagemin": "^7.0.1",
+    "electron-log": "^4.3.5",
+    "imagemin": "^8.0.0",
     "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-pngquant": "^9.0.0",
-    "slash": "^3.0.0"
+    "imagemin-pngquant": "^9.0.2",
+    "slash": "^4.0.0"
   },
   "devDependencies": {
-    "electron": "^9.4.0",
-    "electron-packager": "^15.0.0",
-    "nodemon": "^2.0.4"
+    "electron": "^12.0.5",
+    "electron-packager": "^15.2.0",
+    "nodemon": "^2.0.7"
   }
 }
