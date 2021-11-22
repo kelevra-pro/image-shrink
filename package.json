@@ -29,9 +29,9 @@
     "slash": "^4.0.0"
   },
   "devDependencies": {
-    "electron": "^14.0.0",
+    "electron": "^16.0.1",
     "electron-packager": "^15.4.0",
-    "nodemon": "^2.0.12",
+    "nodemon": "^2.0.15",
     "trim-newlines": "^4.0.2"
   }
 }
